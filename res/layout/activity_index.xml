@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0092AD"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:gravity="center"
+        android:textColor="#ff8030"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:layout_margin="10dp"/>
+    
+    <ImageButton
+        android:id="@+id/ScheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onScheduleButtonClick"
+        android:contentDescription="@string/title_activity_schedule"
+        android:background="@drawable/schedule"
+		android:layout_gravity="center" />
+
+    <ImageButton
+        android:id="@+id/DirectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDirectionButtonClick"
+        android:contentDescription="@string/title_activity_direction"
+        android:background="@drawable/direction" 
+        android:layout_gravity="center"  />
+    
+    <ImageButton
+        android:id="@+id/TellFriendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onTellFriendButtonClick"
+        android:contentDescription="@string/title_activity_friend"
+        android:background="@drawable/friend" 
+        android:layout_gravity="center" />
+    
+    <ImageButton
+        android:id="@+id/CompensationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCompensationButtonClick"
+        android:contentDescription="@string/title_activity_compensation"
+        android:background="@drawable/compensation" 
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:id="@+id/ContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onContactUsButtonClick"
+        android:contentDescription="@string/title_activity_contact"
+        android:background="@drawable/contact" 
+        android:layout_gravity="center" />
+    
+     <ImageButton
+        android:id="@+id/ConsentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDirectionButtonClick"
+        android:contentDescription="@string/title_activity_consent"
+        android:background="@drawable/consent" 
+        android:layout_gravity="center" />
+     
+     <ImageButton
+        android:id="@+id/LearnMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onLearnMoreButtonClick"
+        android:contentDescription="@string/title_activity_more"
+        android:background="@drawable/learnmore"
+		android:layout_gravity="center" />
+     
+     <ImageView 
+   			android:id="@+id/slogo"
+   			android:src="@drawable/slogo"
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:contentDescription="@string/logo"
+   			android:layout_gravity="center" />
+    
+</LinearLayout>
